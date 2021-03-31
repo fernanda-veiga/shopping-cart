@@ -1,20 +1,12 @@
-header {
-  max-width: 1300px;
-  margin: auto;
-  padding: 0 25px;
-}
-
 .navbar {
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: hotpink;
 }
 
 nav {
   flex-grow: 1;
   text-align: right;
-  background-color: lightblue;
 }
 
 nav ul {
@@ -25,4 +17,15 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+}
+
+nav ul .link {
+  text-decoration: none;
+  color: #161854;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo h1 {
+  color: #161854;
+  font-family: "Montserrat", sans-serif;
 }
