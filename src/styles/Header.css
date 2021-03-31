@@ -1,9 +1,12 @@
 header {
-  background-color: orchid;
+  background-color: steelblue;
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar {
-  background-color: palegoldenrod;
+  background-color: teal;
   max-width: 1300px;
   margin: auto;
   padding: 20px;
@@ -11,27 +14,26 @@ header {
   align-items: center;
 }
 
-.logo {
-  background-color: palegreen;
-}
-
 .logo h1 {
+  background-color: tomato;
   color: #161854;
   font-family: "Montserrat", sans-serif;
 }
 
 nav {
+  background-color: turquoise;
   flex-grow: 1;
   text-align: right;
-  background-color: peru;
 }
 
 nav ul {
+  background-color: violet;
   display: inline-block;
   list-style: none;
 }
 
 nav ul li {
+  background-color: wheat;
   display: inline-block;
   margin-left: 20px;
   font-family: "Montserrat", sans-serif;
@@ -65,4 +67,24 @@ nav ul .link {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo h1 {
+    font-size: 1.8em;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  nav ul li {
+    margin: 0px;
+  }
 }

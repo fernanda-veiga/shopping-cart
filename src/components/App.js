@@ -10,14 +10,12 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <div className="container">
-          <Header />
-          <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/shop" component={Shop} />
-          </Switch>
-          <Footer />
-        </div>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/shop" component={Shop} />
+        </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );
