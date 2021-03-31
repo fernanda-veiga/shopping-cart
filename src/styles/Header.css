@@ -1,31 +1,68 @@
+header {
+  background-color: orchid;
+}
+
 .navbar {
+  background-color: palegoldenrod;
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
   display: flex;
   align-items: center;
-  padding: 20px;
 }
 
-nav {
-  flex-grow: 1;
-  text-align: right;
-}
-
-nav ul {
-  display: inline-block;
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav ul .link {
-  text-decoration: none;
-  color: #161854;
-  font-family: "Montserrat", sans-serif;
+.logo {
+  background-color: palegreen;
 }
 
 .logo h1 {
   color: #161854;
   font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+  background-color: peru;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul .link {
+  text-decoration: none;
+  color: #161854;
+}
+
+.cart {
+  position: relative;
+  padding: 0px 5px;
+}
+
+.cart-icon {
+  color: #161854;
+}
+
+.cart-number {
+  background-color: red;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 0.6em;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
