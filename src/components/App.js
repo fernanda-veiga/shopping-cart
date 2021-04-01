@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="App">
         <Header cartQuantity={cartQuantity} />
         <Switch>
