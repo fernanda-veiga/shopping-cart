@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
-function Header() {
+function Header(props) {
   return (
     <header>
       <div className="navbar">
@@ -24,10 +24,10 @@ function Header() {
             <li>
               <div className="cart">
                 <div className="cart-icon">
-                  <i class="fas fa-shopping-bag"></i>
+                  <i className="fas fa-shopping-bag"></i>
                 </div>
                 <div className="cart-number">
-                  <p>0</p>
+                  <p>{props.cartQuantity}</p>
                 </div>
               </div>
             </li>
