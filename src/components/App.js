@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Homepage from "./Homepage";
 import Shop from "./Shop";
@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
         <Header cartQuantity={cartQuantity} />
         <Switch>
@@ -52,7 +52,7 @@ function App() {
           />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
