@@ -1,10 +1,8 @@
 .Homepage {
-  background-color: yellow;
   height: 100vh;
 }
 
-.container {
-  background-color: lightskyblue;
+.Homepage .container {
   height: 100%;
   max-width: 1300px;
   margin: auto;
@@ -15,7 +13,6 @@
 }
 
 .Homepage-text {
-  background-color: magenta;
   padding-right: 10px;
 }
 
@@ -23,8 +20,7 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-  /*background-color: rgba(250, 193, 188, 0.5);*/
-  background-color: navy;
+  background-color: rgba(250, 193, 188, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,9 +29,9 @@
 }
 
 .Homepage-text h1 {
-  background-color: olivedrab;
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
+  color: #161854;
 }
 
 .Homepage-text .button {
@@ -46,10 +42,15 @@
   border-radius: 2em;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.Homepage-text .button:hover {
+  background-color: #161854;
+  box-shadow: 0 0 5px gray;
 }
 
 .Homepage-img {
-  background-color: mediumslateblue;
   padding-left: 10px;
 }
 
@@ -59,23 +60,8 @@
   object-fit: cover;
 }
 
-/*@media (max-width: 768px) {
-  .container {
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 100%;
-  }
-
-  .Homepage-text-container {
-    
-  }
-
-  .Homepage-text h1 {
-    
-  }
-}*/
-
 @media (max-width: 600px) {
-  .container {
+  .Homepage .container {
     padding: 125px 20px 20px 20px;
     grid-template-rows: 50% 50%;
     grid-template-columns: 100%;
@@ -105,14 +91,3 @@
     padding-top: 10px;
   }
 }
-
-/*@media (max-width: 620px) {
-  .Homepage-text h1 {
-    font-size: 30px;
-    margin: 0px;
-  }
-
-  .Homepage-text .button {
-    margin: 30px 0px 0px 0px;
-  }
-}*/
