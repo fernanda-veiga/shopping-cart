@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.a6d960fe.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.e02c22f4.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.e02c22f4.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.f89a1504.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.f89a1504.js.map",
+    "static/js/2.6cb2cc8e.chunk.js": "/shopping-cart/static/js/2.6cb2cc8e.chunk.js",
+    "static/js/2.6cb2cc8e.chunk.js.map": "/shopping-cart/static/js/2.6cb2cc8e.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.a6d960fe.chunk.css.map": "/shopping-cart/static/css/main.a6d960fe.chunk.css.map",
+    "static/js/2.6cb2cc8e.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.6cb2cc8e.chunk.js.LICENSE.txt",
+    "static/media/bouquet-0.20964f25.jpg": "/shopping-cart/static/media/bouquet-0.20964f25.jpg",
+    "static/media/bouquet-1.a629ffc3.jpg": "/shopping-cart/static/media/bouquet-1.a629ffc3.jpg",
+    "static/media/bouquet-10.9a276f80.jpg": "/shopping-cart/static/media/bouquet-10.9a276f80.jpg",
+    "static/media/bouquet-11.fd6b2490.jpg": "/shopping-cart/static/media/bouquet-11.fd6b2490.jpg",
+    "static/media/bouquet-2.71cf28ae.jpg": "/shopping-cart/static/media/bouquet-2.71cf28ae.jpg",
+    "static/media/bouquet-3.195742e3.jpg": "/shopping-cart/static/media/bouquet-3.195742e3.jpg",
+    "static/media/bouquet-4.4c7fca45.jpg": "/shopping-cart/static/media/bouquet-4.4c7fca45.jpg",
+    "static/media/bouquet-5.a86eb6bb.jpg": "/shopping-cart/static/media/bouquet-5.a86eb6bb.jpg",
+    "static/media/bouquet-6.e441123d.jpg": "/shopping-cart/static/media/bouquet-6.e441123d.jpg",
+    "static/media/bouquet-7.7d71bdc7.jpg": "/shopping-cart/static/media/bouquet-7.7d71bdc7.jpg",
+    "static/media/bouquet-8.37af787a.jpg": "/shopping-cart/static/media/bouquet-8.37af787a.jpg",
+    "static/media/bouquet-9.bf5d4b30.jpg": "/shopping-cart/static/media/bouquet-9.bf5d4b30.jpg",
+    "static/media/bride-bouquet.ccfdf76c.jpg": "/shopping-cart/static/media/bride-bouquet.ccfdf76c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f89a1504.js",
+    "static/js/2.6cb2cc8e.chunk.js",
+    "static/css/main.a6d960fe.chunk.css",
+    "static/js/main.e02c22f4.chunk.js"
+  ]
+}
